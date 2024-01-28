@@ -1,7 +1,5 @@
-const header = () => {
-  return (
-    <header>Header</header>
-  )
-}
+const Header = () => {
+  return <header>Header</header>;
+};
 
-export default header;
+export default Header;
