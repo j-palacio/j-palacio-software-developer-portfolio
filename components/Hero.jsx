@@ -39,10 +39,17 @@ const Hero = () => {
               journey, and what I engae in profesionally.
             </p>
             {/* button */}
-            <div>
+            <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0
+            mb-12'>
               <Link href='/contact'>
-                <Button>Contact me</Button>
+                <Button className='gap-x-2'>
+                  Contact me <Send size={18} />
+                </Button>
               </Link>
+              <Button variant='secondary' className='gap-x-2'>
+                Download CV
+                <Download size={18} />
+              </Button>
             </div>
           </div>
           {/* image */}
